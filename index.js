@@ -75,6 +75,6 @@ app.get("/", (req, res) => {
 app.post("/words", addWord);
 app.get("/words", getWord);
 
-server.listen(3000, () => {
+server.listen(process.env.PORT || 8000, () => {
     console.log("server running at http://localhost:3000");
 });
