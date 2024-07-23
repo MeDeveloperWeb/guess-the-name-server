@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "nodemon --env-file=secret.env index.js",
-        "start": "node --env-file=secret.env index.js"
+        "start": "node index.js"
     },
     "repository": {
         "type": "git",
